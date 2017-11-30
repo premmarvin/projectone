@@ -10,6 +10,33 @@
   <name>IPHomeLoan</name>
   <url>http://maven.apache.org</url>
   
+  
+
+<profiles>
+    <profile>
+    <id>ST</id>
+    <properties>
+     <github.global.userName>premmarvin16</github.global.userName>
+     <github.global.password>marvin16</github.global.password>
+    </properties>
+    <repositories>
+      <repository>
+      <id>stagingRepo</id>
+      <name>Perfecto Mobile Staging Repo</name>
+      <url>https://github.com/premmarvin/projectone</url>
+<!-- <url> http://repository-perfectomobile.forge.cloudbees.com/public/com/ </url> -->
+    <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+    </snapshots>
+   </repository>
+</repositories>
+</profile>
+</profiles>
+
+  
+  
+  
   <dependencies>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
 		<dependency>
@@ -53,6 +80,8 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.3.0</version>
 		</dependency>
+		
+		
 		
 		
 		
