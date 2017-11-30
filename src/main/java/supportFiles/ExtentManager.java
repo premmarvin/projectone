@@ -69,7 +69,7 @@ public static ExtentReports Instance(){
     	
     	System.out.println("File not exists");*/
    
-    extent = new ExtentReports( "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/index.html", false);
+    extent = new ExtentReports( "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/index.html", true);
    //extent = new ExtentReports( "./../"+reportvalue+"/index.html", true);
    
   //  }
