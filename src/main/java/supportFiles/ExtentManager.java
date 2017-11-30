@@ -71,7 +71,7 @@ public static ExtentReports Instance(){
    
    // extent = new ExtentReports( "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/index.html", true);
     
-    extent = new ExtentReports( System.getProperty("user.dir")+"/"+reportvalue+"/index.html", true);
+    extent = new ExtentReports(  System.getProperty("user.dir")+"/"+reportvalue+"/index.html", true);
 
    //extent = new ExtentReports( "./../"+reportvalue+"/index.html", true);
    
