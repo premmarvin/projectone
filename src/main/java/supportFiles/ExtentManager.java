@@ -237,7 +237,7 @@ public void tear()
 
 
 
-@AfterTest
+/*@AfterTest
 public void afterTest(){
 	//extent.flush();
 	extent.endTest(test);
@@ -245,7 +245,7 @@ public void afterTest(){
 	//extent.endTest(test);
 //extent.endTest(test);
 	
-}
+}*/
 
 /*@AfterSuite
 public void afterSuiteMethod() {
