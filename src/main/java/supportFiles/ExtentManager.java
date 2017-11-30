@@ -69,8 +69,8 @@ public static ExtentReports Instance(){
     	
     	System.out.println("File not exists");*/
    
-    
-   extent = new ExtentReports( "./../"+reportvalue+"/index.html", true);
+    extent = new ExtentReports( "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/index.html", false);
+   //extent = new ExtentReports( "./../"+reportvalue+"/index.html", true);
    
   //  }
     
@@ -116,7 +116,7 @@ public static String  capturefull(RemoteWebDriver driver,String screenshotout) t
 	    
 	  //String dest = workingDir+File.separator+reportvalue+"/images/" + screenshotout + ".png";
 	    
-	String dest = "./../"+reportvalue+"/images/" + screenshotout + ".png";
+	String dest = "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/images/" + screenshotout + ".png";
 	 
 	 
 	 //String dest = workingDir+File.separator+reportvalue+"/images/" + screenshotout + ".png";
@@ -159,7 +159,7 @@ long number1 = (long) Math.floor(Math.random() * 900000000L) + 10000000L;
     
     //String dest =  workingDir+File.separator+reportvalue+"/images/"+screenShotName+".png";
     
-    String dest = "./../"+reportvalue+"/images/"+screenShotName+".png";
+    String dest = "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/images/"+screenShotName+".png";
     
     File destination = new File(dest);
    
