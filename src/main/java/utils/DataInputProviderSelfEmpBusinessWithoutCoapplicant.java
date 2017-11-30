@@ -26,7 +26,7 @@ public class DataInputProviderSelfEmpBusinessWithoutCoapplicant extends ExtentMa
 		Object[][] data = null;
 
 		try {
-			FileInputStream fis = new FileInputStream(new File("C:/Users/Temp/workspace/IPHomeLoan/HomeLoanInput.xlsx"));
+			FileInputStream fis = new FileInputStream(new File("C:/Users/Temp/workspace/IPHomeLoanTestCase3/HomeLoanInput.xlsx"));
 			XSSFWorkbook workbook = new XSSFWorkbook(fis);
 			XSSFSheet sheet = workbook.getSheetAt(1);	
 

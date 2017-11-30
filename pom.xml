@@ -232,13 +232,8 @@
 					<version>2.19.1</version> -->
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testngTestcaseSalariedWithoutCoapplicant.xml</suiteXmlFile>
 						
-						
-						<suiteXmlFile>testngTestcaseSelfEmployedBusiness.xml</suiteXmlFile>
-						
-						<suiteXmlFile>testngTestcaseSalariedwithCoapplicant.xml</suiteXmlFile>
-						<suiteXmlFile>testngTestcaseSalariedExistingLoanTopupWithoutCoapplicant.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 						
 					</suiteXmlFiles>
 					<forkMode>never</forkMode>
