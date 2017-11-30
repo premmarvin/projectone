@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41290" started-at="2017-11-23T14:43:11Z" finished-at="2017-11-23T14:43:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41290" started-at="2017-11-23T14:43:11Z" finished-at="2017-11-23T14:43:52Z">
+      <class name="Testcases.TestcaseSalariedExistingLoanTopupWithoutCoapplicant">
+        <test-method status="PASS" signature="Instance()[pri:0, instance:Testcases.TestcaseSalariedExistingLoanTopupWithoutCoapplicant@25a98f]" name="Instance" is-config="true" duration-ms="644" started-at="2017-11-23T20:13:10Z" finished-at="2017-11-23T20:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Instance -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testcases.TestcaseSalariedExistingLoanTopupWithoutCoapplicant@25a98f]" name="beforeMethod" is-config="true" duration-ms="2873" started-at="2017-11-23T20:13:12Z" finished-at="2017-11-23T20:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Testcases.TestcaseSalariedExistingLoanTopupWithoutCoapplicant@25a98f]" name="init" duration-ms="17312" started-at="2017-11-23T20:13:15Z" data-provider="getData" finished-at="2017-11-23T20:13:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestUserRavi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[09/11/1988]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BTM7898AA6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Salaried]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC Pvt Ltd]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Indian Bank]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2 Year]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[3 Month]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Existing Loan Topup]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[ Indian Overseas Bank ]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[5686790]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[7000000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[TestuserRavi@gmail.com]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[9978656789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:Testcases.TestcaseSalariedExistingLoanTopupWithoutCoapplicant@25a98f]" name="tear" is-config="true" duration-ms="206" started-at="2017-11-23T20:13:32Z" finished-at="2017-11-23T20:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Testcases.TestcaseSalariedExistingLoanTopupWithoutCoapplicant@25a98f]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-11-23T20:13:52Z" finished-at="2017-11-23T20:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Testcases.TestcaseSalariedExistingLoanTopupWithoutCoapplicant -->
+      <class name="Testcases.TestcaseSelfEmployedBusiness">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testcases.TestcaseSelfEmployedBusiness@1993335]" name="beforeMethod" is-config="true" duration-ms="2176" started-at="2017-11-23T20:13:32Z" finished-at="2017-11-23T20:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Testcases.TestcaseSelfEmployedBusiness@1993335]" name="init" duration-ms="17938" started-at="2017-11-23T20:13:34Z" data-provider="getData" finished-at="2017-11-23T20:13:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestUserRamesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[09/11/1988]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BTM7898AA6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Self Employed Business]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Proprietor]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[20/11/2002]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[400000]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Home Loan - Property Identified]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Purchase of ready to Move in property]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ABC Builder]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[ABC Project]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[5000000]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[TestuserRamesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[8878656789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:Testcases.TestcaseSelfEmployedBusiness@1993335]" name="tear" is-config="true" duration-ms="31" started-at="2017-11-23T20:13:52Z" finished-at="2017-11-23T20:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- Testcases.TestcaseSelfEmployedBusiness -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
