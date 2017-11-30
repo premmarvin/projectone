@@ -69,12 +69,15 @@ public static ExtentReports Instance(){
     	
     	System.out.println("File not exists");*/
    
-    extent = new ExtentReports( "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/index.html", true);
+   // extent = new ExtentReports( "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/index.html", true);
+    
+    extent = new ExtentReports( System.getProperty("user.dir")+"/"+reportvalue+"/index.html", true);
+
    //extent = new ExtentReports( "./../"+reportvalue+"/index.html", true);
    
   //  }
     
-   
+    
     
     //System.out.println("./../"+reportvalue+"/index.html");
  
@@ -116,9 +119,12 @@ public static String  capturefull(RemoteWebDriver driver,String screenshotout) t
 	    
 	  //String dest = workingDir+File.separator+reportvalue+"/images/" + screenshotout + ".png";
 	    
-	String dest = "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/images/" + screenshotout + ".png";
+	//String dest = "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/images/" + screenshotout + ".png";
 	 
-	 
+	String dest = System.getProperty("user.dir")+"/"+reportvalue+"/images/" + screenshotout + ".png";
+	
+	
+	
 	 //String dest = workingDir+File.separator+reportvalue+"/images/" + screenshotout + ".png";
        ImageIO.write(screenshot.getImage(),"PNG",new File(dest));
        return dest;
@@ -159,7 +165,12 @@ long number1 = (long) Math.floor(Math.random() * 900000000L) + 10000000L;
     
     //String dest =  workingDir+File.separator+reportvalue+"/images/"+screenShotName+".png";
     
-    String dest = "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/images/"+screenShotName+".png";
+    String dest = System.getProperty("user.dir")+"/"+reportvalue+"/images/"+screenShotName+".png";
+    
+    
+  //  String dest = "C:/Users/Temp/workspace/IPHomeLoanTestCase3"+"/"+reportvalue+"/images/"+screenShotName+".png";
+
+    
     
     File destination = new File(dest);
    
